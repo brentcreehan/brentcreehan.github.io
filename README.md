@@ -3,7 +3,7 @@
 Hello! My name is Brent Creehan. I am currently a sophomore attending Mount Aloysius College. I am currently majoring in Information Technology with a specialization in Cybersecurity. I am also a member of the baseball team at Mount Aloysius College. I am from Irwin, Pennsylvania which is about 20-25 minutes just southeast of Pittsburgh. A quick little fun fact about me is that I help my mother breed Toy Australian Sheppards when I am home in Pittsburgh!
 
 
-### Markdown
+### My Skills Repertoire
 
 Skills that I have obtained so far:
 - Proficient in mutliple programming languages
