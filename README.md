@@ -5,25 +5,18 @@ Hello! My name is Brent Creehan. I am currently a sophomore attending Mount Aloy
 
 ### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Skills that I have obtained so far:
+- Proficient in mutliple programming languages
+  - HTML
+  - Python
+  - Java
+  - JavaScript
+- Proficient in Mac OS X and Windows
+- Knowledgeable with Wiresahrk
+- Competent in web design
+- Some networking knowledge
+- All around solid in programming
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
