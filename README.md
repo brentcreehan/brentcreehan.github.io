@@ -34,7 +34,7 @@ Skills that I have obtained so far:
 ### Seasons Project
 This project that I created allows the user to pick a season from a drop down menu and the background color changes as well as a small image that relates to that seaosn shows. 
   - [Seasons Project](brentcreehan.github.io/seasons.html)
-  - 
+  - [Counter Project](https://github.com/brentcreehan/brentcreehan.github.io/blob/main/counter.html)
 
 
 
