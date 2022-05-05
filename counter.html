@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <title> Number Counter </title>
+</head>
+<style>
+
+</style>
+    
+<body>
+    
+<form>
+Choose a fun background color:
+
+<select id="background" onchange="updateBackgroundColor(this)">
+  <option value="#ffff00">Yellow</option>
+  <option value="#ffa500">Orange</option>
+  <option value="#c4a484">Light Brown</option>
+  <option value="#add8e6">Light Blue</option>
+
+</select>
+
+</form>
+
+		<h1 id="CounterNumber">0</h1>
+
+
+    	<div class = "center">
+			<button onclick="decrease()" style = "height:150px;width:150px"> -1 			</button>
+        </div>
+
+	
+
+    	<div class = "center">
+    		<button onclick="increase()" style = "height:150px;width:150px"> +1 </button>
+    	</div>
+
+    
+
+    	<div class = "center">
+    		<button onClick="reset()" style = "height:150px;width:150px"> Reset </button>
+		</div>
+
+<script>
+
+//this num variable is the counter that is used in the console
+//the CounterNumber variable is used so I can display the actions of the buttons
+	let num = 0;
+	let CounterNumber = document.getElementById("CounterNumber")
+
+//this function allows the button to decrease the value by one and display it in the dom
+	function decrease() {
+		num--;
+   		CounterNumber.innerText = num;
+	}
+
+//this function allows the button to increase the value by one and display it in the dom
+	function increase() {
+    	num++;
+        CounterNumber.innerText = num;
+    }
+
+//this function resets the displayed number in the dom back to 0
+    function reset() {
+    	num = 0;
+        CounterNumber.innerText = num;
+    }
+
+//this function allows for the backgorund color to be changed via a dropdown menu
+    function updateBackgroundColor(selectElem) {
+  		var i = selectElem.selectedIndex;
+  		if (i < 0) {
+    		return;
+  }
+  document.body.style.backgroundColor = selectElem.options[i].value;
+}
+</script>
+
+</body>
+</html>
